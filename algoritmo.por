@@ -12,6 +12,16 @@ programa {
     escreva("Digite sua nota da terceira avaliação: ")
     leia(nota3)
 
+    media = (nota1+nota2+nota3)/3
+
+    se (media >= 7 e media <= 10 ){
+
+    } senao se (media< 7 e media<3){
+
+    }senao {
+
+    }
+
     
   }
 }
